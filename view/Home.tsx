@@ -53,7 +53,7 @@ export class Home extends Component {
                 <div className="px-2 py-20 w-full flex justify-center bg-black">
                     <div className="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
                         <div className="lg:w-1/2">
-                            <div id="backgroundimage" className="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg">
+                            <div id="backgroundimage" className="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg duration-500 hover:scale-105 hover:shadow-xl">
                             </div>
                         </div>
                         <div className="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
@@ -99,12 +99,91 @@ export class Home extends Component {
                     </div>
                 </div>
 
+                <div className="bg-black p-4">
+                    <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
+                        <div className="flex md:contents flex-row-reverse">
+                            <div
+                                className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                                <h3 className="text-lg font-semibold lg:text-xl">Yatalamaththa Maha Vidyalaya (2007-2017) </h3>
+                                <p className="mt-2 leading-6">I did my primary and secondary education
+                                    well here.</p>
+                                <span className="absolute text-sm font-bold text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Ordinary Level</span>
+                            </div>
+                            <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                <div className="flex items-center justify-center w-6 h-full">
+                                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                                    </div>
+                                </div>
+                                <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                            </div>
+                        </div>
+
+                        <div className="flex md:contents">
+                            <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                <div className="flex items-center justify-center w-6 h-full">
+                                    <div className="w-1 h-full bg-indigo-300"></div>
+                                </div>
+                                <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                            </div>
+                            <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                                <h3 className="text-lg font-semibold lg:text-xl">Dr.Richard Pathirana Collage (2018-2020)</h3>
+                                <p className="mt-2 leading-6">I did my advanced level education well here.</p>
+                                <span className="absolute text-sm  font-bold text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Advanced Level </span>
+                            </div>
+                        </div>
+
+                        <div className="flex md:contents flex-row-reverse">
+                            <div
+                                className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+                                <h3 className="text-lg font-semibold lg:text-xl">Institute of Software Engineering (2022-2024)</h3>
+                                <p className="mt-2 leading-6">After completing my high school education, I
+                                    pursued a graduate diploma in a software
+                                    engineering course at the Institute of Software
+                                    Engineering.</p>
+                                <span className="absolute text-sm font-bold text-indigo-100/75 -top-5 left-2 whitespace-nowrap">HND Level</span>
+                            </div>
+                            <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                <div className="flex items-center justify-center w-6 h-full">
+                                    <div className="w-1 h-full bg-indigo-300 rounded-t-full bg-gradient-to-b from-indigo-400 to-indigo-300">
+                                    </div>
+                                </div>
+                                <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                            </div>
+                        </div>
+
+                        <div className="flex md:contents">
+                            <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
+                                <div className="flex items-center justify-center w-6 h-full">
+                                    <div className="w-1 h-full bg-indigo-300"></div>
+                                </div>
+                                <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
+                            </div>
+                            <div className="relative p-4 my-6 text-gray-800 bg-white rounded-xl col-start-6 col-end-10 mr-auto">
+                                <h3 className="text-lg font-semibold lg:text-xl">Institute of Software Engineering (2024-2025)</h3>
+                                <p className="mt-2 leading-6">I do my graduation here after completing
+                                    my graduate diploma in software
+                                    engineering course</p>
+                                <span className="absolute text-sm font-bold text-indigo-100/75 -top-5 left-2 whitespace-nowrap">Degree Level</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
 
 
 
 
 
             </div>
-        );
+                );
     }
 }
