@@ -1,5 +1,21 @@
 import {Component} from "react";
 import './style.css';
+import adobexd from '../images/tecnology/adobexd.png';
+import css from '../images/tecnology/css.png';
+import figma from '../images/tecnology/figma.png';
+import boostrap from '../images/tecnology/boostrap.png';
+import html from '../images/tecnology/html.png';
+import javascript from '../images/tecnology/javascript.png';
+import react from '../images/tecnology/react.png';
+import tailwind from '../images/tecnology/tailwind.png';
+import typescript from '../images/tecnology/typescript.png';
+import github from '../images/tecnology/git1.png';
+import intelij from '../images/tecnology/intelij.png';
+import nodejs from '../images/tecnology/nodejs.png';
+import java from '../images/tecnology/java3.png';
+import tomcat from '../images/tecnology/tomcat.png';
+import mysql from '../images/tecnology/mysql.png';
+import vscode from '../images/tecnology/vscode.png';
 
 export class Home extends Component {
     render() {
@@ -20,7 +36,7 @@ export class Home extends Component {
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="text-center">
                             <p
-                                className="max-w-4xl mx-auto mb-4 text-6xl font-bold leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
+                                className="max-w-4xl mx-auto mb-4 text-6xl font-bold font-mono leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
                                 Full Stack Developer <br />
                                 Entrepreneur<br/>
                                 Digital Creator
@@ -169,6 +185,254 @@ export class Home extends Component {
 
                     </div>
                 </div>
+
+
+                <section className="bg-black">
+                    <div className="max-w-7xl mx-auto px-8 py-4 space-y-16">
+                        <h2 className="font-heading font-mono font-bold text-white text-4xl text-center">
+                            TECHNICAL SKILLS
+                        </h2>
+
+                        <div className="grid md:grid-cols-3 gap-16">
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-32 w-32 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={java}/>
+
+
+                                        <h3 className="font-medium text-white text-2xl text-center">
+                                            Java
+                                        </h3>
+                                </a>
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={javascript}/>
+
+                                        <h3 className="font-medium text-white text-2xl text-center">
+                                            JavaScript
+                                        </h3>
+                                </a>
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={typescript}/>
+
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                            TypeScript
+                                        </h3>
+                                </a>
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={mysql}/>
+
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                            mysql
+                                        </h3>
+                                </a>
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={html}/>
+
+
+                                        <h3 className="font-medium text-white text-2xl text-center">
+                                            HTML
+                                        </h3>
+                                </a>
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={css}/>
+
+
+                                        <h3 className="font-medium text-white text-2xl text-center">
+                                            CSS
+                                        </h3>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="bg-black">
+                    <div className="max-w-7xl mx-auto px-8 py-4 space-y-16">
+                        <h2 className="font-heading font-mono font-bold text-white text-4xl text-center duration-500 hover:scale-110 hover:shadow-xl">
+                            TECHNOLOGY STACK
+
+                        </h2>
+
+                        <div className="grid md:grid-cols-3 gap-16">
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-32 w-32 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={github}/>
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Git
+                                    </h3>
+                                </a>
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={tomcat}/>
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Tomcat
+                                    </h3>
+                                </a>
+
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={boostrap}/>
+
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Bootstrap
+                                    </h3>
+                                </a>
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={tailwind}/>
+
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Tailwind CSS
+                                    </h3>
+                                </a>
+
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={nodejs}/>
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Node JS
+                                    </h3>
+                                </a>
+
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={react}/>
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        React
+                                    </h3>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+
+                <section className="bg-black">
+                    <div className="max-w-7xl mx-auto px-8 py-4 space-y-16">
+                        <h2 className="font-heading font-bold text-white text-4xl text-center">
+                        </h2>
+
+                        <div className="grid md:grid-cols-3 gap-16">
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-32 w-32 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={vscode}/>
+
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Vs Code
+                                    </h3>
+                                </a>
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={figma}/>
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        Figma
+                                    </h3>
+                                </a>
+
+
+                            </div>
+
+                            <div className="space-y-4">
+                                <a href="#" target="_blank" className="space-y-2">
+
+                                    <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={intelij}/>
+
+                                    <h3 className="font-medium text-white text-2xl text-center">
+                                        IntelliJ Idea
+                                    </h3>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
