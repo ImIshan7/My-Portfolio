@@ -33,15 +33,15 @@ export class Home extends Component {
                 <nav className="bg-black text-white py-3 px-4 flex items-center justify-between">
                     <a className="font-extrabold text-yellow-400 text-xl tracking-tight" href="#">Ishan</a>
                     <div className="flex items-center">
-                        <a className="text-xl font-bold font-mono  px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Home</a>
-                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">About</a>
-                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Project</a>
-                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Service</a>
-                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Contact</a>
+                        <a className="text-xl font-bold font-mono  px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#home">Home</a>
+                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#about">About</a>
+                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#project">Project</a>
+                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#service">Service</a>
+                        <a className="text-xl font-bold font-mono px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#contact">Contact</a>
                     </div>
                 </nav>
 
-                <section className="pt-12 bg-black sm:pt-16">
+                <section id="home" className="pt-12 bg-black sm:pt-16">
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="text-center">
                             <p
@@ -54,12 +54,12 @@ export class Home extends Component {
                                 Give The Best Things For You and Modern Work Experience For Your Business
                             </h1>
                             <div className="px-8 sm:items-start sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
-                                <a href="#" title=""
+                                <a href="#about" title=""
                                    className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                                    role="button">
                                     Hire me
                                 </a>
-                                <a href="#"
+                                <a href="#contact"
                                    className="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-gray-900 hover:text-white transition-all duration-200 bg-gray-100 border-2 border-gray-900 sm:w-auto rounded-xl hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                                    role="button">Contact US</a>
                             </div>
@@ -75,7 +75,7 @@ export class Home extends Component {
 
                 </section>
 
-                <div className="px-2 py-20 w-full flex justify-center bg-black">
+                <div id="about" className="px-2 py-20 w-full flex justify-center bg-black">
                     <div className="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
                         <div className="lg:w-1/2">
                             <div id="backgroundimage" className="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg duration-500 hover:scale-105 hover:shadow-xl">
@@ -100,23 +100,23 @@ export class Home extends Component {
                             </p>
 
                             <div className=" flex justify-center mt-5 space-x-5">
-                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.facebook.com/ishan.danu.9" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/ishan-dhananjana-615878226/" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
                                 </a>
-                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/im_i__shan/?fbclid=IwAR11_LHvNk4u28y6NvOHI9UcfAY-q5FKcZzO6Crn2lmFJxzUFaLyf2_UhOc" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
                                 </a>
-                                <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.facebook.com/ishan.danu.9" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
                                 </a>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fishandananjay10" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
                                 </a>
 
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/ImIshan7" target="_blank" rel="noopener noreferrer">
                                     <img src="https://img.icons8.com/fluent/30/000000/github.png" />
                                 </a>
                             </div>
@@ -431,7 +431,7 @@ export class Home extends Component {
 
                 <section className="flex flex-col justify-center bg-black max-w-full min-h-screen px-4 py-10 mx-auto sm:px-6">
                     <div className="flex flex-wrap items-center justify-between mb-8">
-                        <h2 className="mr-10 text-4xl font-bold font-mono text-white text-center leading-none md:text-5xl">
+                        <h2 id="project" className="mr-10 text-4xl font-bold font-mono text-white text-center leading-none md:text-5xl">
                             PROJECTS
                         </h2>
 
@@ -627,7 +627,7 @@ export class Home extends Component {
 
                 <div className="max-w-full-xl mx-auto py-8 px-4 lg:py-16 lg:px-6 bg-black">
                     <div className=" mb-10">
-                        <h2 className="text-5xl tracking-tight font-bold text-white font-mono text-primary-800">SERVICES</h2>
+                        <h2 id="service" className="text-5xl tracking-tight font-bold text-white font-mono text-primary-800">SERVICES</h2>
                     </div>
 
                     <div className="flex flex-col md:flex-row">
@@ -676,7 +676,7 @@ export class Home extends Component {
 
                 <div className="bg-black " id="contact">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 ">
-                        <h2 className="text-5xl font-mono text-white font-bold">Contact</h2>
+                        <h2 id="contact" className="text-5xl font-mono text-white font-bold">Contact</h2>
 
                     </div>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
