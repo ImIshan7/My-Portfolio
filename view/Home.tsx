@@ -16,6 +16,15 @@ import java from '../images/tecnology/java3.png';
 import tomcat from '../images/tecnology/tomcat.png';
 import mysql from '../images/tecnology/mysql.png';
 import vscode from '../images/tecnology/vscode.png';
+import watchhub from '../images/projects/watchhub.png';
+import traveller from '../images/projects/zentraveller (1).png';
+import computershop from '../images/projects/computershop.png';
+import game from '../images/projects/game.png';
+import google from '../images/projects/google.png';
+import hostel from '../images/projects/hostel.png';
+import netflix from '../images/projects/netflix.png';
+import porthtml from '../images/projects/porthtml.png';
+import reactport from '../images/projects/reactport.png';
 
 export class Home extends Component {
     render() {
@@ -36,7 +45,7 @@ export class Home extends Component {
                     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                         <div className="text-center">
                             <p
-                                className="max-w-4xl mx-auto mb-4 text-6xl font-bold font-mono leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
+                                className="max-w-4xl mx-auto mb-4 text-6xl font-bold hover:text-yellow-400 font-mono leading-tight text-white sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
                                 Full Stack Developer <br />
                                 Entrepreneur<br/>
                                 Digital Creator
@@ -329,7 +338,6 @@ export class Home extends Component {
                                     <img className="mx-auto h-40 w-40 rounded-full xl:w-32 xl:h-32 duration-500 hover:scale-110 hover:shadow-xl" src={tailwind}/>
 
 
-
                                     <h3 className="font-medium text-white text-2xl text-center">
                                         Tailwind CSS
                                     </h3>
@@ -421,6 +429,199 @@ export class Home extends Component {
 
 
 
+                <section className="flex flex-col justify-center bg-black max-w-full min-h-screen px-4 py-10 mx-auto sm:px-6">
+                    <div className="flex flex-wrap items-center justify-between mb-8">
+                        <h2 className="mr-10 text-4xl font-bold font-mono text-white text-center leading-none md:text-5xl">
+                            PROJECTS
+                        </h2>
+
+                    </div>
+
+                    <div className="flex flex-wrap -mx-4">
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={watchhub}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
+                                    <div>
+
+                                        <a href="https://github.com/ImIshan7/Zen-Watch-Hub.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Zen Watch Hub React Web Application  </a>
+                                        <p className="mb-4 font-medium">
+                                            This is a Web E commerce application for selling watches. This is a full stack application
+                                            Using React,Tailwind CSS,IntelliJ Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={traveller}/>
+                            <div className="flex flex-grow">
+                            <div className="triangle"></div>
+                            <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                <div>
+                                    <a href="https://github.com/ImIshan7/Zen-Traveler-Blog-React-Application.git"
+                                       className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                        Zen Traveller Blog React Web Application
+                                    </a>
+                                    <p className="mb-4">
+                                        This is a Web Blog application for travellers. This is a full stack application
+                                        Using React,Tailwind CSS,IntelliJ Idea Technologies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={netflix}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/Netflix-clone-React-application.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Netflix Clone React Web Application
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for watching movies. This is a full stack application
+                                            Using React,Tailwind CSS,IntelliJ Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={google}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/Google-Clone-React-Application.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Google Clone React Web Application
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for searching. This is a full stack application
+                                            Using React,Tailwind CSS,IntelliJ Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={reactport}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/My-Portfolio.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Portfolio React Web Application
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for my portfolio. This is a full stack application
+                                            Using React,Tailwind CSS,IntelliJ Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={game}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/Night-Game-2D.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Night Servior 2D Game Application
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a 2D game application. This is a full stack application
+                                            Using HTML,CSS,Java Script and Intellij Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={porthtml}/>
+
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/MyPortfolio.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Portfolio  Web Application
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for my portfolio. This is a full stack application
+                                            Using HTML,CSS,and Intellij Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={hostel}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/Hostel-System-Hibernate.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Hostel Management System
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for managing hostel. This is a full stack application
+                                            Using Hibernate,layered Architecture and Intellij Idea Technologies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
+                            <img className="object-cover object-center w-full h-48 duration-500 hover:scale-110 hover:shadow-xl" src={computershop}/>
+
+                            <div className="flex flex-grow">
+                                <div className="triangle"></div>
+                                <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
+                                    <div>
+                                        <a href="https://github.com/ImIshan7/Computershop.git"
+                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                            Computer Shop Management System
+                                        </a>
+                                        <p className="mb-4">
+                                            This is a Web application for managing computer shop. This is a full stack application
+                                            Using Java,MVC Architecture and Intellij Idea Technologies.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 
