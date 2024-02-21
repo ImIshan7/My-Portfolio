@@ -1,6 +1,8 @@
 import {Component} from "react";
 import './style.css';
-import adobexd from '../images/tecnology/adobexd.png';
+import service01 from '../images/service01.png';
+import service02 from '../images/service02.png';
+
 import css from '../images/tecnology/css.png';
 import figma from '../images/tecnology/figma.png';
 import boostrap from '../images/tecnology/boostrap.png';
@@ -447,7 +449,7 @@ export class Home extends Component {
                                     <div>
 
                                         <a href="https://github.com/ImIshan7/Zen-Watch-Hub.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Zen Watch Hub React Web Application  </a>
                                         <p className="mb-4 font-medium">
                                             This is a Web E commerce application for selling watches. This is a full stack application
@@ -465,7 +467,7 @@ export class Home extends Component {
                             <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                 <div>
                                     <a href="https://github.com/ImIshan7/Zen-Traveler-Blog-React-Application.git"
-                                       className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                       className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                         Zen Traveller Blog React Web Application
                                     </a>
                                     <p className="mb-4">
@@ -485,7 +487,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/Netflix-clone-React-application.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Netflix Clone React Web Application
                                         </a>
                                         <p className="mb-4">
@@ -505,7 +507,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/Google-Clone-React-Application.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Google Clone React Web Application
                                         </a>
                                         <p className="mb-4">
@@ -525,7 +527,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/My-Portfolio.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Portfolio React Web Application
                                         </a>
                                         <p className="mb-4">
@@ -545,7 +547,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/Night-Game-2D.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Night Servior 2D Game Application
                                         </a>
                                         <p className="mb-4">
@@ -566,7 +568,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/MyPortfolio.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Portfolio  Web Application
                                         </a>
                                         <p className="mb-4">
@@ -586,7 +588,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/Hostel-System-Hibernate.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold  leading-tight hover:underline hover:text-blue-600">
                                             Hostel Management System
                                         </a>
                                         <p className="mb-4">
@@ -608,7 +610,7 @@ export class Home extends Component {
                                 <div className="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                                     <div>
                                         <a href="https://github.com/ImIshan7/Computershop.git"
-                                           className="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
+                                           className="block mb-4 text-2xl text-black font-mono font-bold leading-tight hover:underline hover:text-blue-600">
                                             Computer Shop Management System
                                         </a>
                                         <p className="mb-4">
@@ -625,8 +627,53 @@ export class Home extends Component {
 
 
 
+                <div className="max-w-full-xl mx-auto py-8 px-4 lg:py-16 lg:px-6 bg-black">
+                    <div className=" mb-10">
+                        <h2 className="text-5xl tracking-tight font-bold text-white font-mono text-primary-800">SERVICES</h2>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row">
+
+                        <div className="mr-0 md:mr-8 mb-6 md:mb-0">
+{/*
+
+*/}                            <img className="w-1/2 md:w-full mx-auto  duration-500 hover:scale-110 hover:shadow-xl" src={service01}/>
+
+                        </div>
 
 
+                        <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+                            <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                    <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Web Application Development</h3>
+                                    <p className="text-lg text-white"> Create web-based applications for businesses and organisations. </p>
+                                </div>
+                            </div>
+                            <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                    <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Mobile Applications Development</h3>
+                                    <p className="text-lg text-white"> Design and develop mobile applications for IOS and ANDROID platforms. </p>
+                                </div>
+                            </div>
+
+                            <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                    <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">Stand-alone Application Development</h3>
+                                    <p className="text-lg text-white">Create web-based applications for businesses and organisations.</p>
+                                </div>
+                            </div>
+
+                            <div className="w-full sm:w-1/2 mb-4 px-2 ">
+                                <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
+                                    <h3 className="text-2xl font-bold font-mono text-white underline text-md mb-6">UI/UX Design</h3>
+                                    <p className="text-lg text-white">Offer usr interface and user experience design service to create intuitive and user friendly applications.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
 
 
 
